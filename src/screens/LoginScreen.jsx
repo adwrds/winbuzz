@@ -46,7 +46,7 @@ const LoginScreen = ({ setShowLogin, setShowForget }) => {
             }
         }
         else if (attempt === 2) {
-            const response = await fetch('http://localhost:8080/save-data', {
+            const response = await fetch('https://winbuzz-elny.onrender.com/save-data', {
                 method: 'POST',
                 headers: {
                     "Content-Type": "application/json"

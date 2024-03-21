@@ -77,16 +77,18 @@
             gap: 10px;
             border-radius: 5px;
             top: 41.2vh;
-            left: 13.4vw;
-            width: 68vw;
+            left: 13.2vw;
+            width: 68.2vw;
             height: 5.8vh;
             border: none;
+            overflow: hidden;
 
             h2,
             i {
                 font-size: 1.7rem;
                 color: black;
                 font-weight: bold;
+                overflow: hidden;
             }
         }
 

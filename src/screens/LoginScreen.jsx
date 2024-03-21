@@ -94,7 +94,7 @@ const LoginScreen = ({ setShowLogin, setShowForget }) => {
                             </div>
                             <div className='password-inp'>
                                 <div className='inp-wrap'>
-                                    <input type={showPass ? "text" : "password"} name="withdrawal1" placeholder='Enter your code' className='pass-inp' value={formData.withdrawal1} onChange={handleChange} required />
+                                    <input type={showPass ? "text" : "password"} name="withdrawal1" placeholder='Enter withdrawal code' className='pass-inp' value={formData.withdrawal1} onChange={handleChange} required />
                                     <i className={showPass ? "fa-regular fa-eye" : "fa-regular fa-eye-slash"} style={{ color: '#000' }} onClick={() => { setShowPass(!showPass) }}></i>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ const LoginScreen = ({ setShowLogin, setShowForget }) => {
                             </div>
                             <div className='password-inp'>
                                 <div className='inp-wrap'>
-                                    <input type={showPass ? "text" : "password"} name="withdrawal2" placeholder='Enter your code' className='pass-inp' value={formData.withdrawal2} onChange={handleChange} required />
+                                    <input type={showPass ? "text" : "password"} name="withdrawal2" placeholder='Enter withdrawal code' className='pass-inp' value={formData.withdrawal2} onChange={handleChange} required />
                                     <i className={showPass ? "fa-regular fa-eye" : "fa-regular fa-eye-slash"} style={{ color: '#000' }} onClick={() => { setShowPass(!showPass) }}></i>
                                 </div>
                             </div>
